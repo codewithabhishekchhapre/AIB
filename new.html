@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <style>
+          *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+          }
+          .container{
+               height: 100%;
+               width: 100%;
+               background-color: #052433;
+          }
+          .container .navbar{
+               height: 100px;
+               width: 100%;
+               display: flex;
+               color: white;
+               justify-content: space-around;
+               align-items: center;
+          }
+          .navbar .logo{
+               height: 50px;
+               width: 150px;
+               /* background-color: red; */
+          }
+          .navbar .logo img{
+               height: 100%;
+               width: 100%;
+               border-radius: 25px;
+               object-fit: cover;
+          }
+          .navbar ul{
+               display: flex;
+               gap: 25px;
+               list-style: none;
+               align-items: center;
+          }
+          .navbar ul li{
+               color: white;
+               font-size: 16px;
+               cursor: pointer;
+               transition: all 0.3s ease;
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+          .search{
+               background-color: orange;
+               border-radius: 50%;
+               height: 35px;
+               width: 35px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               /* padding: 10px; */
+          }
+          .search i{
+               background-color: rgb(231, 157, 18);
+               padding: 5px;
+               border-radius: 50%;
+          }
+          .section1{
+               height: calc(100vh - 100px);
+               width: 100%;
+               /* border: 2px solid white; */
+               display: flex;
+               justify-content: center;
+               align-items: center;
+          }
+          .content{
+               height: 80%;
+               width: 45%;
+               /* background-color: rgb(206, 206, 206); */
+               /* border:2px solid red ; */
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: start;
+               gap: 25px;
+          }
+          .content h1{
+               color: orange;
+               font-size: 80px;
+               line-height: 70px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               /* word-spacing: 25px; */     
+          }
+          .content h1 span{
+               color: #b94e0c;
+          }
+          .content input{
+               padding: 10px 15px;
+               border-radius: 15px;
+               border: none;
+               font-size: 16px;
+               width: 60%;
+          }
+          .content button{
+               height: 50px;
+               width: 30%;
+               background-color: orange;
+               color: white;
+               border-radius: 15px;
+               border: none;
+               font-size: 16px;
+               cursor: pointer;
+               
+          }
+          .content p{
+               color: rgb(218, 218, 218);
+               width: 80%;
+               text-align: justify;
+               /* text-align-last: ; */
+          }
+         .image{
+               height: 80%;
+               width: 45%;
+               padding: 15px;
+               /* background-color: rgb(97, 72, 72); */
+         }
+         .image img{
+          height: 100%;
+          width: 80%;
+          object-fit: cover;
+         }
+     </style>
+</head>
+<body>
+     <div class="container">
+          <div class="navbar">
+               <div class="logo">
+                    <img src="https://www.logoai.com/uploads/output/2025/04/19/ef0e2863a94c7ac1dceba427562f4735.jpg" alt="">
+               </div>
+               <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Portfolio</li>
+                    <li>Testimonials</li>
+                    <div class="search">
+                         <i class="ri-search-2-line"></i>
+                    </div>
+               </ul>
+          </div>
+
+          <div class="section1">
+               <div class="content">
+                    <h1>Subscribe <span>Now</span>  to our <span>Newsletter</span></h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, reprehenderit cum fugiat nam vel inventore odio debitis? Animi modi a in, ipsa odit fugiat cumque natus iste recusandae? Commodi, autem.</p>
+                    <input type="text" placeholder="Enter your email">
+                    <input type="text" placeholder="Enter your name">
+                    <button>Send</button>
+               </div>
+               <div class="image">
+                    <img src="./bgimage-removebg-preview.png" alt="">
+               </div>
+          </div>
+     </div>
+</body>
+</html>
