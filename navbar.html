@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+   <style>
+     *{
+          margin: 0px;
+          padding: 0px;
+     }
+     .navbar{
+          height: 80px;
+          width: 100%;
+          background-color: rgb(16, 46, 85);
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          color: white;
+     }
+     .logo{
+          height: 70px;
+          width: 150px;
+          /* background-color: teal; */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     .menu{
+          height: 70px;
+          width: 450px;
+          /* background-color: rgb(160, 119, 73); */
+     }
+     .menu ul{
+          display: flex;
+          gap: 25px;
+          list-style: none;
+          align-items: center;
+          height: 100%;
+     }
+     .menu ul li{
+          cursor: pointer;
+          font-size: 20px;
+          font-weight: 500;
+     }
+     .btn{
+          height: 70px;
+          width: 150px;
+          /* background-color: rgb(90, 131, 185); */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     .btn button{
+          padding: 8px 20px;
+          border-radius: 5px;
+          font-size: 16px;
+          margin: 15px;
+          border: none;
+     }
+   </style>
+</head>
+<body>
+     <div class="navbar">
+          <div class="logo">
+               <h1>Logo.</h1>
+          </div>
+          <div class="menu">
+               <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                    <li>Products</li>
+                    <li>Blog</li>
+               </ul>
+          </div>
+          <div class="btn">
+               <button style="background-color: rgb(39, 74, 120); color: white;">Login</button>
+               <button style="color: rgb(150, 183, 226); background-color: transparent; border: 2px solid gray;">Register</button>
+          </div>
+     </div>
+</body>
+</html>
