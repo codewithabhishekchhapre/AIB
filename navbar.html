@@ -7,6 +7,7 @@
      *{
           margin: 0px;
           padding: 0px;
+          box-sizing: border-box;
      }
      .navbar{
           height: 80px;
@@ -57,6 +58,108 @@
           margin: 15px;
           border: none;
      }
+     .section{
+          background-color: rgb(16, 46, 85);
+          height: 650px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+          padding: 1px;
+     }
+     .content{
+          height: 80%;
+          width: 45%;
+          color: white;
+          padding: 50px 100px;
+     }
+     .content h5{
+          color: orange;
+          font-size: 18px;
+          margin-bottom: 15px;
+          /* padding-bottom: 15px; */
+          /* border: 2px solid white; */
+     }
+     .content h1{
+          font-size: 55px;
+     }
+     .content button{
+          padding: 10px 30px;
+          border-radius: 5px;
+          font-size: 18px;
+          margin-top: 20px;
+          background-color: rgb(39, 74, 120);
+          color: white;
+          border: none;
+          cursor: pointer;
+     }
+     .images{
+          height: 80%;
+          width: 45%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     .images img{
+          height: 80%;
+          width: 80%;
+          object-fit: cover;
+          border-radius: 50px 10px 50px 10px;
+     }
+     .services{
+          height: 70%;
+          width: 100%;
+          padding: 1px;
+     }
+     .services h5{
+          color: orange;
+          font-size: 18px;
+          text-align: center;
+          margin-top: 20px;
+     }
+     .services h1{
+          font-size: 50px;
+          text-align: center;
+          color: rgb(109, 73, 73);
+          margin-top: 20px;
+     }
+     .cards{
+          height: 80%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 25px;
+     }
+     .card{
+          height: 300px;
+          width: 250px;
+          padding: 5px;
+          /* margin: 20px auto; */
+          border-radius: 10px;
+          background-color: rgb(234, 234, 234);
+          box-shadow: 2px 4px 15px rgb(178, 178, 178);
+     }
+     .card img{
+          width: 100%;
+          height: 40%;
+          margin-bottom: 15px;
+     }
+     .card p{
+          padding: 5px 0px;
+     }
+     .card button{
+          width: 100%;
+          padding: 8px 20px;
+          border-radius: 5px;
+          font-size: 16px;
+          margin-top: 10px;
+          border: none;
+          background-color: rgb(39, 74, 120);
+          color: white;
+          cursor: pointer;
+     }
    </style>
 </head>
 <body>
@@ -77,6 +180,53 @@
           <div class="btn">
                <button style="background-color: rgb(39, 74, 120); color: white;">Login</button>
                <button style="color: rgb(150, 183, 226); background-color: transparent; border: 2px solid gray;">Register</button>
+          </div>
+     </div>
+
+     <div class="section">
+          <div class="content">
+               <h5>What are you Craving</h5>
+               <h1>The Taste of Home-Baked Goodness to enrich every Moment.</h1>
+               <button>Order Now</button>
+          </div>
+          <div class="images">
+               <img src="https://cdn.prod.website-files.com/63ea45ebaef615f2a548607b/66d7936d50a956c0f1b9f8db_66d792c0765ca7b3550ac1b9_AdobeStock_713042638.jpeg" alt="">
+          </div>
+     </div>
+
+     <div class="services">
+          <h5>Services</h5>
+          <h1>Sweet , Fluffy & Delicious Relishment</h1>
+          <div class="cards">
+               <div class="card">
+                    <img src="https://www.allrecipes.com/thmb/gDJ1S6ETLfWGyyWw_4A_IGhvDYE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9295_red-velvet-cake_ddmfs_4x3_1129-a8ab17b825e3464a9a53ceeda54ff461.jpg" alt="">
+                    <h3>Red Velvet Cake</h3>
+                    <p>Popular in the southern U.S., red velvet cake is a vanilla cake with a few tablespoons </p>
+                    <h2>Rs 799 </h2>
+                    <button>Order Now</button>
+               </div>
+
+               <div class="card">
+                    <img src="https://www.allrecipes.com/thmb/gDJ1S6ETLfWGyyWw_4A_IGhvDYE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9295_red-velvet-cake_ddmfs_4x3_1129-a8ab17b825e3464a9a53ceeda54ff461.jpg" alt="">
+                    <h3>Red Velvet Cake</h3>
+                    <p>Popular in the southern U.S., red velvet cake is a vanilla cake with a few tablespoons </p>
+                    <h2>Rs 799 </h2>
+                    <button>Order Now</button>
+               </div>
+               <div class="card">
+                    <img src="https://www.allrecipes.com/thmb/gDJ1S6ETLfWGyyWw_4A_IGhvDYE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9295_red-velvet-cake_ddmfs_4x3_1129-a8ab17b825e3464a9a53ceeda54ff461.jpg" alt="">
+                    <h3>Red Velvet Cake</h3>
+                    <p>Popular in the southern U.S., red velvet cake is a vanilla cake with a few tablespoons </p>
+                    <h2>Rs 799 </h2>
+                    <button>Order Now</button>
+               </div>
+               <div class="card">
+                    <img src="https://www.allrecipes.com/thmb/gDJ1S6ETLfWGyyWw_4A_IGhvDYE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9295_red-velvet-cake_ddmfs_4x3_1129-a8ab17b825e3464a9a53ceeda54ff461.jpg" alt="">
+                    <h3>Red Velvet Cake</h3>
+                    <p>Popular in the southern U.S., red velvet cake is a vanilla cake with a few tablespoons </p>
+                    <h2>Rs 799 </h2>
+                    <button>Order Now</button>
+               </div>
           </div>
      </div>
 </body>
